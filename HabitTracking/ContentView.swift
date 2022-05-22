@@ -52,24 +52,6 @@ struct ContentView: View {
         }
     }
     
-//    func removeItems(at offsets: IndexSet, in inputArray:
-//                     [HabitItem]) {
-//        var objectsToDelete = IndexSet()
-//
-//        for offset in offsets {
-//            let item = inputArray[offset]
-//
-//            if let index = habits.items.firstIndex(of: item) {
-//                objectsToDelete.insert(index)
-//            }
-//        }
-//
-//        habits.items.remove(atOffsets: objectsToDelete)
-//    }
-//
-//    func removeItems(at offsets: IndexSet) {
-//        removeItems(at: offsets, in: habits.items)
-//    }
     
 }
 

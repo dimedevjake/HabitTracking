@@ -10,7 +10,7 @@ import SwiftUI
 struct HabitSection: View {
     
     @StateObject var habits = Habits()
-//    let deleteItems: (IndexSet) -> Void
+
 
     var body: some View {
         Section () {
@@ -55,8 +55,6 @@ struct HabitSection: View {
                     }
                 }
             }
-//            .onDelete(perform: deleteItems)
-//            
         }
     }
     
